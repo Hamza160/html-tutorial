@@ -4,9 +4,79 @@
     <link rel="icon" type="image/icon" src="../assets/img/favicon_io/favicon.ico"/>
     <title>Document</title>
 </head>
+<style>
+    table, th, td {
+        border: 1px solid black;
+      }
+</style>
 <body>
-    <h1>Git Hub</h1>
-    <h2>Change In My File</h2>
+    <h1>Introduction To Tables</h1>
+
+    <!-- 
+
+        Table   
+
+        Table is a collection of rows and columns
+
+        To Store or Display THe Data
+
+        Result Cards
+        Resturant Menu
+        ......
+
+     -->
+
+
+     <table border="1" cellspacing="0" cellpadding="10">
+        <!-- Table Head th -->
+        <thead>
+            <!-- Table Row tr -->
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Father Name</th>
+                <th>Phone Number</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <!-- Table Body -->
+        <tbody border="1">
+            <tr>
+                <!-- Table Definition td -->
+                <td>1</td>
+                <td colspan="2">Hamza</td>
+                <td rowspan="3">+923110767466</td>
+                <td>St # 3 NBHD Zahid Colony Gujranwala</td>
+            </tr>
+            <tr>
+                <!-- Table Definition td -->
+                <td>2</td>
+                <td>Talha</td>
+                <td>Ashraf</td>
+                <!-- <td>+923110767466</td> -->
+                <td>St # 3 NBHD Zahid Colony Gujranwala</td>
+            </tr>
+            <tr>
+                <!-- Table Definition td -->
+                <td>3</td>
+                <td>rahim</td>
+                <td>Ashraf</td>
+                <!-- <td>+923110767466</td> -->
+                <td>St # 3 NBHD Zahid Colony Gujranwala</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Father Name</th>
+                <th>Phone Number</th>
+                <th>Address</th>
+            </tr>
+        </tfoot>
+     </table>
+
+
 </body>
 </html>
 
