@@ -1,83 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" type="image/icon" src="../assets/img/favicon_io/favicon.ico"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<style>
-    table, th, td {
-        border: 1px solid black;
-      }
-</style>
 <body>
-    <h1>Introduction To Tables</h1>
+    <!-- List -->
+    <h1>Friends List</h1>
 
-    <!-- 
-
-        Table   
-
-        Table is a collection of rows and columns
-
-        To Store or Display THe Data
-
-        Result Cards
-        Resturant Menu
-        ......
-
-     -->
-
-
-     <table border="1" cellspacing="0" cellpadding="10">
-        <!-- Table Head th -->
-        <thead>
-            <!-- Table Row tr -->
-            <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Father Name</th>
-                <th>Phone Number</th>
-                <th>Address</th>
-            </tr>
-        </thead>
-        <!-- Table Body -->
-        <tbody border="1">
-            <tr>
-                <!-- Table Definition td -->
-                <td>1</td>
-                <td colspan="2">Hamza</td>
-                <td rowspan="3">+923110767466</td>
-                <td>St # 3 NBHD Zahid Colony Gujranwala</td>
-            </tr>
-            <tr>
-                <!-- Table Definition td -->
-                <td>2</td>
-                <td>Talha</td>
-                <td>Ashraf</td>
-                <!-- <td>+923110767466</td> -->
-                <td>St # 3 NBHD Zahid Colony Gujranwala</td>
-            </tr>
-            <tr>
-                <!-- Table Definition td -->
-                <td>3</td>
-                <td>rahim</td>
-                <td>Ashraf</td>
-                <!-- <td>+923110767466</td> -->
-                <td>St # 3 NBHD Zahid Colony Gujranwala</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Father Name</th>
-                <th>Phone Number</th>
-                <th>Address</th>
-            </tr>
-        </tfoot>
-     </table>
-
-
+    <!-- Order List ol -->
+    <h2>Oder List</h2>
+    <ol>
+        <!-- List Item -->
+        <li>Hamza</li>
+        <li>Tahzeb</li>
+        <li>
+            Ahtesham
+            <ol type="a">
+                <li>Wajid</li>
+            </ol>
+        </li>
+    </ol>
+    <hr/>
+    <!-- Unorder List -->
+    <h3>Unorder List</h3>
+    <ul >
+        <li>Mango</li>
+        <li>Orange</li>
+        <li>
+            Pineapple
+            <ul>
+                <li>
+                    Cakes
+                    <ul>
+                        <li>Fruit Cake</li>
+                        <li>Moose Cake</li>
+                    </ul>
+                </li>
+                <li>Shakes</li>
+            </ul>
+        </li>
+    </ul>
+    <hr/>
+    <h2>Defination List</h2>
+    <!-- Defination List dl -->
+    <dl>
+        <dt>Beast of Bodmin</dt>
+        <dd>A large feline inhabiting Bodmin Moor.</dd>
+      
+        <dt>Morgawr</dt>
+        <dd>A sea serpent.</dd>
+      
+        <dt>Owlman</dt>
+        <dd>A giant owl-like creature.</dd>
+      </dl>
+      
 </body>
 </html>
-
-<!-- Repository / Folder -->
